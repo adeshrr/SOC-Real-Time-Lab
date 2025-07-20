@@ -1,0 +1,46 @@
+# General
+*.log
+*.bak
+*.tmp
+*.swp
+.DS_Store
+Thumbs.db
+
+# Systemd service files and environment variables
+*.service
+.env
+.env.*
+
+# Logs and runtime files
+/var/log/*
+*.pid
+
+# OS-generated
+*.iso
+*.img
+*.vmdk
+
+# Editor backups
+*~
+*.sublime-workspace
+.vscode/
+
+# Python (if any automation scripts are written)
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# NodeJS (if MISP modules use it)
+node_modules/
+
+# Archive and compressed files
+*.tar
+*.tar.gz
+*.zip
+*.7z
+*.rar
+
+# Terraform, Ansible, Vagrant (optional, if used)
+.terraform/
+.vagrant/
+*.tfstate
