@@ -51,10 +51,10 @@ To replicate this SOC Real-Time Lab setup on your own infrastructure:
 
 ```
 SOC-Real-Time-Lab/
-├── 01_architecture/       # SOC design diagram
-├── 02_config/             # Config files (TheHive, Cortex, MISP)
-├── 03_screenshots/        # UI screenshots of the tools
-├── 04_notes/              # Troubleshooting notes
+├── architecture/       # SOC design diagram
+├── config/             # Config files (TheHive, Cortex, MISP)
+├── screenshots/        # UI screenshots of the tools
+├── notes/              # Troubleshooting notes
 ├── LICENSE                # MIT License
 ├── .gitignore             # Ignore system files
 └── README.md              # Project summary and instructions
