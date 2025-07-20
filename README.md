@@ -31,7 +31,7 @@ The following diagram illustrates the architecture of the SOC lab:
 Architecture
 
 <p align="center">
-  <img src="architecture/architecture_diagram.png" alt="SOC Architecture Diagram" width="700"/>
+  <img src="architecture/architecture_diagram.png" alt="SOC Architecture Diagram" width="600"/>
 </p>
 
 <p align="center"><em>Figure 1: SOC Real-Time Lab Architecture Overview</em></p>
