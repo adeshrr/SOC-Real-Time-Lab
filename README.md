@@ -28,7 +28,7 @@ This setup is suitable for cybersecurity learners, blue teamers, and security an
 
 The following diagram illustrates the architecture of the SOC lab:
 
-![SOC Architecture](architecture/soc_architecture.png)
+![SOC Architecture](https://github.com/adeshrr/SOC-Real-Time-Lab/blob/main/architecture/architecture_diagram.png?raw=true)
 
 ## Setup Overview
 
