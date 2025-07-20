@@ -1,0 +1,17 @@
+## MISP configuration
+# More information at https://github.com/TheHive-Project/TheHiveDocs/TheHive4/Administration/Connectors.md
+# Enable MISP connector
+ play.modules.enabled += org.thp.thehive.connector.misp.MispModule
+ misp {
+  interval: 1m
+  servers: [
+    {
+      name = "misp"            # MISP name
+      url = "https://192.168.2.2/" # URL or MISP
+      auth {
+        type = key
+        type = key
+        key = ""             # MISP API key
+      }
+      wsConfig {}
+      wsConfig.ssl.loose.acceptAnyCertificate: true  # Useful for lab or internal environments where HTTPS is used without a valid CA-signed certificate.
