@@ -53,7 +53,7 @@ All screenshots are available in the `screenshots/` directory.
 ```
 soc-real-time-lab/
 ├── architecture/
-│   └── soc_architecture.png
+│   └──architecture.png
 ├── screenshots/
 │   ├── thehive_web_interface.png
 │   ├── cortex_api_key_creation.png
